@@ -1,16 +1,40 @@
 body {
     font-family: Arial, sans-serif;
-    background: #f0f4f8;
+    background-color: #f7f5f2;
+    color: #333;
     text-align: center;
-    padding: 50px;
+    padding: 40px;
 }
 .container {
-    max-width: 400px;
+    max-width: 500px;
     margin: auto;
 }
-button {
+h1, h2 {
+    margin-bottom: 20px;
+}
+.buttons button {
     display: block;
+    width: 80%;
     margin: 10px auto;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #e6e2dd;
+    cursor: pointer;
+}
+#response, #about {
+    margin-top: 30px;
+}
+a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #d5bfa3;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.hidden {
+    display: none;
 }

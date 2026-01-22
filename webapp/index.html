@@ -1,18 +1,27 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Психолог Онлайн</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <title>Мини-приложение Психолога</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #F5F5F5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Как ты себя чувствуешь?</h1>
-        <button onclick="selectMood('anxious')">😟 Тревожно</button>
-        <button onclick="selectMood('burnout')">😩 Выгорание</button>
-        <button onclick="selectMood('ok')">🙂 Нормально</button>
-    </div>
-    <script src="script.js"></script>
+    <img src="preview.png" alt="Мини-приложение">
 </body>
 </html>
